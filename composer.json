@@ -1,0 +1,24 @@
+{
+  "name": "doirun/reward",
+  "description": "Add ability to redeem reward points on checkout/cart page",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Kevin Bodwell",
+      "email": "kevin@doi.run",
+      "homepage": "http://github.com/doirun"
+    }
+  ],
+  "require": {
+    "magento/module-reward": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "DoIRun\\Reward\\": ""
+    }
+  }
+}
